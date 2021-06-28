@@ -1,5 +1,8 @@
 ## Permutation
-If we have a set of number,[0,1,2,3]  and we need to arrange it all 4 element when the order matters, we will
+If we have a set of number,[0,1,2,3] instead of representing the actual set [0,1,2,3] to the code, we use its index
+, in the case will be [0,1,2,3]. If the actual set is [1,2,3,4], the representing will be [0,1,2,3]
+
+and we need to arrange it all 4 element when the order matters, we will
 have ([0,1,2,3].length)!, which is 4! in the example, but what if we need to select a set of [0,1,2,3], "r" elements,
 the number of permutation of r elements when r<=[0,1,2,3].length is  ([0,1,2,3].length)!/([0,1,2,3].length-r)!
 
